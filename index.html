@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Rancho HTML</title>
+        <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
     <header>
@@ -18,11 +19,10 @@
                 </li>
             </ul>
         </nav>
-        <h1>Ранчо</h1>
+        <h1 id="selected" class="underline">Ранчо</h1>
         <h2>Відпочинок у Карпатах</h2>
     </header>
     <form method="POST" action="https://formspree.io/olegsenkiv1992@ukr.net">
-    <section>
         <img src="img/rancho.jpg" alt="Будинок">
         <h2>Запрошуємо на відпочинок</h2>
             <p>Відпочинок у курортній перлині Львівської області.
@@ -57,11 +57,11 @@
         <fieldset>
             <legend>Ваші дані:</legend>
             <label>Ваше ім'я:
-                <input type="text" placeholder="Ім'я" first name="name">
+                <input type="text" placeholder="your name" name="name">
             </label>
             <br>
             <label>Прізвище:
-                <input type="text" placeholder="Прізвище" name="last name">
+                <input type="text" placeholder=" your Last Name" name="last name">
             </label>
             <br>
             <label>Ваш день народження:
@@ -105,9 +105,6 @@
         </label>
         <br>
     </form>
-
-
-    </section>
     <footer>
         <h5>
         <a href="#top"><img src="img/up-arrow.svg" width="25" alt="arrow up"></a>
