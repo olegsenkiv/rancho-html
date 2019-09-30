@@ -4,13 +4,27 @@ html {
     margin: auto;
     height: auto;
 }
+#home {
+   border: 2px solid green;
+
+}
 h1 {
-    color: green;
+    color: grey;
     border: 2px solid grey;
     margin: auto;
 }
 h2 {
+    border-style: outset;
     color: green;
+}
+#selected {
+    border: 2px outset yellowgreen;
+    position: sticky;
+    top: auto;
+    right: auto;
+}
+.underline {
+    text-decoration: underline;
 }
 p {
     color:black;
