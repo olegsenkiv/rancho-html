@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap');
+:root {
+    --accent-color: #08520c;
+    --main-color: black;
+    font-family: 'Kelly Slab', cursive;
+    scroll-behavior: smooth;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+
+
+
+

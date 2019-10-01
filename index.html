@@ -6,9 +6,9 @@
         <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
-    <header>
-        <nav>
-            <ul>
+        <header>
+            <nav>
+                <ul class="menu">
                 <li>
                     <a href="main.html">Головна</a>
                 </li>
@@ -21,55 +21,48 @@
                 <li>
                     <a href="gallery.html">Галерея</a>
                 <li>
-                    <a href="contacts.html">Контакти</a>
+                    <a href="#contacts">Контакти</a>
                 </li>
                 <li>
-                    <a href="reserve.html">Забронювати</a>
+                    <a href="#reserve">Забронювати</a>
                 </li>
-            </ul>
-        </nav>
-        <h1 id="home">Ранчо</h1>
-        <h2 id="selected" class="underline">Відпочинок у Карпатах</h2>
-    </header>
-    <form method="POST" action="https://formspree.io/olegsenkiv1992@ukr.net">
-        <img src="img/rancho.jpg" alt="Будинок">
-        <h2>Запрошуємо на відпочинок</h2>
-            <p>Відпочинок у курортній перлині Львівської області.
+                </ul>
+            </nav>
+            <div id="home">
+            <h1>Ранчо</h1>
+            </div>
+        </header>
+        <main>
+            <div>
+            <h2 class="vacation">Відпочинок у Карпатах</h2>
+            <img src="img/rancho.jpg" alt="Відпочинковий котедж">
+            </div>
+             <h2 class="welcome">Запрошуємо на відпочинок</h2>
+                <p>Відпочинок у курортній перлині Львівської області.
                 Відпочинковий комплекс розташований на схилах живописних гір, неподалік  курортного містечка Східниця.
                 Тільки тут ви можете відчути і оцінити унікальне поєднання
                 неймовірно красивої гірської природи і кришталево чистого повітря.
                 Комфортні номера, велика кількість послуг допоможуть вам насолодитись в повній мірі відпочинком і зробити  його незабутнім.
-            </p>
-
-        <h2 class="underline">Ловля форелі та карпа</h2>
+                </p>
+            <div>
+            <h2 class="fish">Ловля форелі та карпа</h2>
             <p>У нас можна не лише цікаво порибалити, а й одночасно замовити приготування виловленої риби. Найсмачніша риба – це риба виловлена власноруч!
             </p>
-        <img src="img/fish.jpg" alt="Ловля форелі та карпа">
-        <br>
-        <img src="img/brazier.jpg" alt="На мангалі">
-        <br>
-        <h2 class="underline">Сауна та басейн</h2>
-        <p>Чудове місце не тільки для відпочинку, але і для зміцнення імунітету та здоров"я.
-        </p>
-        <img src="img/sauna.jpg" alt="Сауна та Басейн">
-        <h2 class="underline">Озеро та Альтанки</h2>
-        <p></p>
-        <img src="img/lake.jpg" alt="Озеро та Альтанки">
-        <h2>Контакти</h2>
-        <br>
-        <p>тел.098 45 06 758 </p>
-        <p>email: olegsenkiv1992@ukr.net</p>
-        <p>© Бистриця-Гірська 2019 | • Львівська область, Дрогобицький район.<p>
-        <br>
-        <iframe id="inlineFrameExample"
-            title="Inline Frame Example"
-            width="500"
-            height="400"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
-        </iframe>
-        <br>
+            </div>
+            <img src="img/fish.jpg" alt="Ловля форелі та карпа">
+            <br>
+            <img src="img/brazier.jpg" alt="На мангалі">
+            <br>
+            <h2 class="sauna">Сауна</h2>
+            <p>Чудове місце не тільки для відпочинку, але і для зміцнення імунітету та здоров"я.</p>
+            <img src="img/sauna.jpg" alt="Сауна та Басейн">
+            <h2 class="lake">Озеро та Альтанки</h2>
+            <p></p>
+            <img src="img/lake.jpg" alt="Озеро та Альтанки">
+            <br>
+            <form method="POST" action="https://formspree.io/olegsenkiv1992@ukr.net">
         <fieldset>
-            <legend>Ваші дані:</legend>
+            <h2 id="reserve">Забронювати</h2>
             <label>Ваше ім'я:
                 <input type="text" placeholder="your name" name="name">
             </label>
@@ -85,7 +78,7 @@
             <label for="yourEmail">Електронна пошта:</label>
             <br>
             <label>
-            <input type="email" placeholder="oleg@ukr.net" name="email" id="yourEmail">
+                <input type="email" placeholder="oleg@ukr.net" name="email" id="yourEmail">
             </label>
             <br>
             <label>Ваш телефон:
@@ -103,30 +96,37 @@
             </textarea>
             <br>
         </fieldset>
-        <br>
+            <br>
         <fieldset>
             <legend>Виберіть бажану дату відпочинку:</legend>
-        <label>Дата бронювання:
-            <input type="date"  name="дата" min="2019-10-01" max="2022-12-31">
-        </label>
-        <br>
+            <label>Дата бронювання:
+                <input type="date"  name="дата" min="2019-10-01" max="2022-12-31">
+            </label>
+            <br>
         </fieldset>
-        <label>Відправити
-            <input type="submit">
-        </label>
-        <br>
-        <label>Скинути
-            <input type="reset" name="Скинути">
-        </label>
-        <br>
-    </form>
-    <fieldset>
+            <label>Відправити
+                <input type="submit">
+            </label>
+            <br>
+            <label>Скинути
+                <input type="reset" name="Скинути">
+            </label>
+            <br>
+        </form>
+        </main>
     <footer>
-        <h3>
+        <h2 id="contacts">Контакти</h2>
         <a href="#top"><img src="img/up-arrow.svg" width="25" alt="arrow up"></a>
-        </h3>
+        <p>тел.098 45 06 758 </p>
+        <p>email: olegsenkiv1992@ukr.net</p>
+        <p>Відстань від Львову 130 км</p>
+        <iframe id="inlineFrameExample"
+            title="Inline Frame Example"
+            width="500"
+            height="400"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+        </iframe>
         <p>© Бистриця-Гірська 2019 | • Львівська область, Дрогобицький район.</p>
     </footer>
-    </fieldset>
     </body>
 </html>

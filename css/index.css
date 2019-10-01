@@ -1,30 +1,74 @@
-html {
-    border: 3px solid black;
-    max-width: auto;
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap');
+:root {
+    --accent-color: #08520c;
+    --main-color: black;
+    font-family: 'Kelly Slab', cursive;
+    scroll-behavior: smooth;
+}
+body {
+    max-width: 980px;
     margin: auto;
-    height: auto;
+}
+header nav .menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+}
+header nav .menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    border: 1px lawngreen transparent;
+    padding: 5px;
+}
+
+header nav .menu a:hover {
+    border: 1px outset var(--accent-color);
+}
+@media (min-width: 550px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+header nav .menu {
+        flex: 1;
+    }
+}
+ #home h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 #home {
    border: 2px solid green;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 3rem;
+   color: var(--accent-color);
+}
 
-}
-h1 {
-    color: grey;
-    border: 2px solid grey;
+.welcome {
+    font-family: 'Freckle Face', cursive;
+    font-size: 2rem;
+    color: rgb(32, 73, 32);
+    text-indent: 40px;
+    padding: auto;
     margin: auto;
+    text-align: center;
 }
-h2 {
-    border-style: outset;
-    color: green;
+.fish {
+    font-family: 'Kelly Slab', cursive;
+    font-size: 2rem;
+    color: rgb(10, 59, 10);
+    text-indent: 40px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
 }
-#selected {
-    border: 2px outset yellowgreen;
-    position: sticky;
-    top: auto;
-    right: auto;
-}
-.underline {
-    text-decoration: underline;
+.fish img {
+    display: block;
+    width: 100%;
 }
 p {
     color:black;
