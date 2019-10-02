@@ -39,13 +39,20 @@ header nav .menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 #home {
    border: 2px solid green;
    font-family: 'Josefin Sans', sans-serif;
    font-size: 3rem;
    color: var(--accent-color);
+}
+.vacation {font-family: 'Freckle Face', cursive;
+    font-size: 2rem;
+    color: rgb(32, 73, 32);
+    text-indent: 40px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
 }
 
 .welcome {
