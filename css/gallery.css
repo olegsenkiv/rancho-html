@@ -9,6 +9,13 @@ body {
     max-width: 980px;
     margin: auto;
 }
+img {
+    border: 3px outset #55c5e9;
+    padding: 15px; 
+    background: #666; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 
 
 

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap');
+
+
 :root {
     --accent-color: #08520c;
     --main-color: black;
@@ -46,13 +48,22 @@ header nav .menu {
    font-size: 3rem;
    color: var(--accent-color);
 }
-.vacation {font-family: 'Freckle Face', cursive;
+
+.vacation {
+    font-family: 'Freckle Face', cursive;
     font-size: 2rem;
     color: rgb(32, 73, 32);
     text-indent: 40px;
     padding: auto;
     margin: auto;
     text-align: center;
+}
+img {
+    border: 2px solid #55c5e9;
+    padding: 15px;
+    background: #666;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .welcome {
@@ -63,6 +74,15 @@ header nav .menu {
     padding: auto;
     margin: auto;
     text-align: center;
+}
+.fish.text {
+    font-size: 2rem;
+    color: rgb(10, 59, 10);
+    text-indent: 40px;
+    padding: auto;
+    margin: auto;
+    text-align: right;
+
 }
 .fish {
     font-family: 'Kelly Slab', cursive;
