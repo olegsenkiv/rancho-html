@@ -10,20 +10,22 @@
 body {
     max-width: 980px;
     margin: auto;
+    background-color: lightgray;
 }
 header nav .menu {
-    border-color: transparent;
     display: flex;
+    flex-wrap: wrap;
+    border: transparent;
     justify-content: space-around;
     padding: 0;
     list-style-type: none;
 }
 header nav .menu a {
+    display: flex;
     flex-wrap: wrap;
     text-decoration: none;
     text-transform: uppercase;
     color: var(--main-color);
-    border: 1px lawngreen transparent;
     padding: 5px;
 }
 
@@ -61,18 +63,24 @@ header nav .menu {
     margin: auto;
     text-align: center;
 }
-img {
-    border: 2px solid #55c5e9;
-    padding: 15px;
-    background: #666;
-    margin-right: 10px;
-    margin-bottom: 10px;
+.villa {
+    text-align: center;
 }
+
 
 .welcome {
     font-family: 'Freckle Face', cursive;
     font-size: 2rem;
     color: rgb(32, 73, 32);
+    text-indent: 40px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+.fish {
+    font-family: 'Kelly Slab', cursive;
+    font-size: 2rem;
+    color: rgb(10, 59, 10);
     text-indent: 40px;
     padding: auto;
     margin: auto;
@@ -87,18 +95,68 @@ img {
     text-align: right;
 
 }
-.fish {
+.fish_on_the_brazier {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brazier {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sauna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Kelly Slab', cursive;
     font-size: 2rem;
     color: rgb(10, 59, 10);
     text-indent: 40px;
     padding: auto;
-    margin: auto;
-    text-align: center;
 }
-.fish img {
-    display: block;
-    width: 100%;
+.for_sauna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_sauna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lake {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kelly Slab', cursive;
+    font-size: 2rem;
+    color: rgb(10, 59, 10);
+    text-indent: 40px;
+    padding: auto;
+}
+.for_lake {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#services {
+    font-family: 'Kelly Slab', cursive;
+    font-size: 2rem;
+    color: rgb(10, 59, 10);
+    text-indent: 40px;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a_lot_of_services {
+    color: rgb(2, 10, 2);
+    text-indent: 40px;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 p {
     color:black;
@@ -107,4 +165,13 @@ p {
 }
 p::first-letter {
     font-size: 2rem;
+}
+#reserve {
+    font-family: 'Freckle Face', cursive;
+    font-size: 2rem;
+    color: rgb(32, 73, 32);
+    text-indent: 40px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
 }
