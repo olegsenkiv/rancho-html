@@ -5,24 +5,27 @@
     font-family: 'Kelly Slab', cursive;
     scroll-behavior: smooth;
 }
-header nav {
-    margin: auto;
-
-}
-body {
+body{
     max-width: 980px;
     margin: auto;
-    background-color: cornsilk;
+    background-color: gainsboro;
 }
-img {
-    border: 3px outset #55c5e9;
-    padding: 15px;
-    background: #666;
-    display: block;
+.gallery {
+    font-family: 'Freckle Face', cursive;
+    font-size: 2rem;
+    color: rgb(32, 73, 32);
+    text-indent: 40px;
+    padding: auto;
     margin: auto;
+    text-align: center;
 }
-
-
-
-
+footer.contacts {
+    font-family: 'Freckle Face', cursive;
+    font-size: 1rem;
+    color: dodgerblue;
+    text-indent: 40px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
 

@@ -10,7 +10,15 @@
 body {
     max-width: 980px;
     margin: auto;
-    background-color: lightgray;
+    background-color: rgb(255, 253, 249);
+}
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  opacity: .8;
+  cursor: pointer;
 }
 header nav .menu {
     display: flex;
@@ -46,7 +54,7 @@ header nav .menu {
     justify-content: center;
 }
 #home {
-   border: 2px solid green;
+   border: 4px solid green;
    font-family: 'Josefin Sans', sans-serif;
    font-size: 3rem;
    color: var(--accent-color);
@@ -63,9 +71,9 @@ header nav .menu {
 }
 .villa {
     text-align: center;
+    display: block;
+    width: 100%;
 }
-
-
 .welcome {
     font-family: 'Freckle Face', cursive;
     font-size: 2rem;
@@ -85,58 +93,71 @@ header nav .menu {
     text-align: center;
 }
 .fish.text {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    color: rgb(10, 59, 10);
+    text-indent: 40px;
+
+}
+.fish_on_the_brazier {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+.brazier {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+#sauna {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "heading"
+    "img";
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#sauna h2 {
+  grid-area: heading;
+}
+
+#sauna img {
+  border-radius: 5px;
+  box-shadow: 0 19px 38px rgba(49, 47, 47, 0.3), 0 15px 12px rgba(34, 31, 31, 0.22);
+  max-height: 400px;
+  grid-area: img;
+}
+@media (min-width: 750px) {
+  #sauna {
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      "img heading"
+      "img first-par"
+      "img last-par";
+    grid-gap: 10px;
+  }
+  #sauna img {
+    max-height: 500px;
+  }
+}
+
+.lake {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr 1fr;
+    font-family: 'Kelly Slab', cursive;
     font-size: 2rem;
     color: rgb(10, 59, 10);
     text-indent: 40px;
     padding: auto;
     margin: auto;
-    text-align: right;
-
-}
-.fish_on_the_brazier {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.brazier {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.sauna {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Kelly Slab', cursive;
-    font-size: 2rem;
-    color: rgb(10, 59, 10);
-    text-indent: 40px;
-    padding: auto;
-}
-.for_sauna {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.img_sauna {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.lake {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Kelly Slab', cursive;
-    font-size: 2rem;
-    color: rgb(10, 59, 10);
-    text-indent: 40px;
-    padding: auto;
-}
-.for_lake {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
 }
 #services {
     font-family: 'Kelly Slab', cursive;
@@ -172,4 +193,55 @@ p::first-letter {
     padding: auto;
     margin: auto;
     text-align: center;
+}
+footer {
+  background-color: #a9aeb1;
+}
+.find_us {
+    font-family: 'Freckle Face', cursive;
+    font-size: 2rem;
+    color: rgb(32, 73, 32);
+    text-indent: 40px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+.way {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+display: flex;
+    align-content: stretch;
+    font-family: 'Kelly Slab', cursive;
+    font-size: 2rem;
+    color: rgb(10, 59, 10);
+    text-indent: 40px;
+    padding: auto;
+}
+.for_sauna {
+    display: flex;
+    justify-content: flex-start;
+}
+.img_sauna {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+
+
+
+
+img
+    border: 3px outset #55c5e9;
+    padding: 15px;
+    background: #666;
+    display: block;
+    margin: auto;
+    width: 100%;
 }

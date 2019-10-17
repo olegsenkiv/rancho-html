@@ -27,3 +27,31 @@ body {
     margin: auto;
     text-align: center;
 }
+.attention {
+    font-size: 1.5rem;
+    color: darkblue;
+}
+.cook_forel {
+    color: darkblue;
+    font-size: 1rem;
+}
+.cook_carp {
+    color:forestgreen;
+    font-size: 1rem;
+}
+.lives {
+    font-size: 2rem;
+    color: darkblue;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+.for-one-people {
+    color:forestgreen;
+    font-size: 1rem;
+}
+.for-one-hour {
+    color: darkblue;
+    font-size: 1rem;
+    border-bottom: cornsilk;
+}

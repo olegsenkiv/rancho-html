@@ -51,7 +51,10 @@
             </div>
             <div>
             <h2 class="fish">Ловля форелі та карпа</h2>
-                <p class="text">У нас можна не лише цікаво порибалити, а й одночасно замовити приготування виловленої риби. Найсмачніша риба – це риба виловлена власноруч!
+                <p class="text">Мало хто може сказати, що ловив форель в гірському карпатському озері, але Ви зможете!<br>
+                    У нас можна не лише цікаво порибалити, а й одночасно замовити приготування виловленої риби.
+                    Будь то приготування на мангалі, методом гарячого копчення, смаження в олії чи різноманітні варіанти з фаршируванням.
+                    В будь-якому випадку страва буде надзвичайно смачна та корисна, адже не даремно рибалки говорять, що найсмачніша риба – це риба виловлена власноруч!
                 </p>
             </div>
             <div class="fish_on_the_brazier">
@@ -62,15 +65,13 @@
             <img src="img/brazier.jpg" alt="На мангалі">
             </div>
             <br>
-            <div>
-            <h2 class="sauna">Сауна</h2>
-                <p class="for_sauna">Чудове місце не тільки для відпочинку, але і для зміцнення імунітету та здоров"я.</p>
-                <div class="img_sauna">
+            <div id="sauna">
+            <h2>Сауна</h2>
+                <p>Чудове місце не тільки для відпочинку, але і для зміцнення імунітету та здоров"я.</p>
                 <img src="img/sauna.jpg" alt="Сауна та Басейн">
-                </div>
             </div>
-            <div>
-            <h2 class="lake">Озеро та Альтанки</h2>
+            <div class="lake">
+            <h2 class="text-lake">Озеро та Альтанки</h2>
                 <div class="for_lake">
                     <img src="img/lake.jpg" alt="Озеро та Альтанки">
                 </div>
@@ -143,16 +144,52 @@
     <footer>
         <a href="#top"><img src="img/up-arrow.svg" width="25" alt="arrow up"></a>
         <h2 id="contacts">Контакти</h2>
-        <p>тел.098 45 06 758 </p>
-        <p>email: olegsenkiv1992@ukr.net</p>
+        <ul>
+            <li>тел.098 45 06 758</li>
+            <li>
+                <a href="https://accounts.ukr.net/olegsenkiv1992@ukr.net/" target="_blank">olegsenkiv@ukr.net</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/chelseaman_007/" target="_blank">Instagram</a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100037449129465" target="_blank">facebook</a>
+            </li>
+        </ul>
         <p>Відстань від Львову 130 км</p>
-        <iframe id="inlineFrameExample"
-            title="Inline Frame Example"
-            width="500"
-            height="400"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
-        </iframe>
+        <p class="find_us">Як нас найти</p>
+        <div class="way">
+            <img src="img/way.jpg" alt=" Як доїхати до Бистриці-Гірської">
+        </div>
         <p>© Бистриця-Гірська 2019 | • Львівська область, Дрогобицький район.</p>
+        <script src="js/gallery.js"></script>
     </footer>
     </body>
 </html>
+
+
+display: flex;
+    align-content: stretch;
+    font-family: 'Kelly Slab', cursive;
+    font-size: 2rem;
+    color: rgb(10, 59, 10);
+    text-indent: 40px;
+    padding: auto;
+}
+.for_sauna {
+    display: flex;
+    justify-content: flex-start;
+}
+.img_sauna {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+img
+    border: 3px outset #55c5e9;
+    padding: 15px;
+    background: #666;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
