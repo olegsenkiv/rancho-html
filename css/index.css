@@ -48,7 +48,7 @@ header nav .menu {
         border-color: transparent;
     }
 }
- #home h1 {
+#home h1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,8 +127,8 @@ header nav .menu {
 }
 
 #sauna img {
-  border-radius: 5px;
-  box-shadow: 0 19px 38px rgba(49, 47, 47, 0.3), 0 15px 12px rgba(34, 31, 31, 0.22);
+  border-radius: 10px;
+  box-shadow: 0 19px 38px rgba(104, 94, 94, 0.3), 0 15px 12px rgba(34, 31, 31, 0.22);
   max-height: 400px;
   grid-area: img;
 }
@@ -209,39 +209,5 @@ footer {
 .way {
     display: flex;
     justify-content: center;
-    width: 100%;
-}
-
-
-
-
-display: flex;
-    align-content: stretch;
-    font-family: 'Kelly Slab', cursive;
-    font-size: 2rem;
-    color: rgb(10, 59, 10);
-    text-indent: 40px;
-    padding: auto;
-}
-.for_sauna {
-    display: flex;
-    justify-content: flex-start;
-}
-.img_sauna {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
-
-
-
-
-
-img
-    border: 3px outset #55c5e9;
-    padding: 15px;
-    background: #666;
-    display: block;
-    margin: auto;
     width: 100%;
 }

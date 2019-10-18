@@ -5,7 +5,18 @@
         <title>Rancho HTML</title>
         <link rel="stylesheet" href="css/index.css">
     </head>
-    <body>
+    <body >
+        <form>
+            <select name="color" id="fon">
+            <option value="white">білий</option>
+            <option value="red">червоний</option>
+            <option value="green">зелений</option>
+            <option value="blue">голубий</option>
+            <option value="grey">сірий</option>
+            <option value="snow">сніжний</option>
+            </select>
+        </form>
+        <div class="clock"></div>
         <header>
             <nav>
                 <ul class="menu">
@@ -162,34 +173,7 @@
             <img src="img/way.jpg" alt=" Як доїхати до Бистриці-Гірської">
         </div>
         <p>© Бистриця-Гірська 2019 | • Львівська область, Дрогобицький район.</p>
-        <script src="js/gallery.js"></script>
     </footer>
+        <script src="js/index.js"></script>
     </body>
 </html>
-
-
-display: flex;
-    align-content: stretch;
-    font-family: 'Kelly Slab', cursive;
-    font-size: 2rem;
-    color: rgb(10, 59, 10);
-    text-indent: 40px;
-    padding: auto;
-}
-.for_sauna {
-    display: flex;
-    justify-content: flex-start;
-}
-.img_sauna {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
-img
-    border: 3px outset #55c5e9;
-    padding: 15px;
-    background: #666;
-    display: block;
-    margin: auto;
-    width: 100%;
-}
