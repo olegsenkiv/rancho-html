@@ -7,13 +7,19 @@
     </head>
     <body >
         <form>
-            <select name="color" id="fon">
+            <select name="color" id="backgraund">
             <option value="white">білий</option>
-            <option value="red">червоний</option>
-            <option value="green">зелений</option>
-            <option value="blue">голубий</option>
-            <option value="grey">сірий</option>
+            <option value="silver">срібний</option>
+            <option value="whitesmoke">білосніжний</option>
             <option value="snow">сніжний</option>
+            <option value="grey">сірий</option>
+            <option value="beige">бежевий</option>
+            <option value="tan">засмаглий</option>
+            <option value="slategrey">шиферу</option>
+            <option value="yellowgreen">жовто-зелений</option>
+            <option value="green">зелений</option>
+            <option value="red">червоний</option>
+            <option value="blue">голубий</option>
             </select>
         </form>
         <div class="clock"></div>
@@ -100,56 +106,44 @@
                 </div>
         </main>
         <form method="POST" action="https://formspree.io/olegsenkiv1992@ukr.net">
-        <fieldset>
-            <h2 id="reserve">Забронювати</h2>
-            <label>Ваше ім'я:
-                <input type="text" placeholder="your name" name="name">
-            </label>
-            <br>
-            <label>Прізвище:
-                <input type="text" placeholder=" your Last Name" name="last name">
-            </label>
-            <br>
-            <label>Ваш день народження:
-                <input type="date" name="birthday" min="1900-01-01" max="2019-12-31">
-            </label>
-            <br>
-            <label for="yourEmail">Електронна пошта:</label>
-            <br>
-            <label>
-                <input type="email" placeholder="oleg@ukr.net" name="email" id="yourEmail">
-            </label>
-            <br>
-            <label>Ваш телефон:
-            <br>
-                <input type="tel" placeholder="+380xxxxxxxxx" name="phone">
-            </label>
-            <br>
-            <label>Кількість людей:
-                <input type="text" placeholder="Кількість" name="number">
-            </label>
-            <br>
-            <label for="question">Ваші запитання:</label>
-            <br>
-            <textarea id="question" name="question" rows="5" cols="33">Чи вільні місця на...
-            </textarea>
-            <br>
-        </fieldset>
-            <br>
-        <fieldset>
+        <fieldset class="data">
             <legend>Виберіть бажану дату відпочинку:</legend>
-            <label>Дата бронювання:
-                <input type="date"  name="дата" min="2019-10-01" max="2022-12-31">
-            </label>
-            <br>
+            <h2 class="reserve">Забронювати</h2>
+            <div class="your-data">
+                <label>Ваше ім'я:
+                    <input type="text" placeholder="your name" name="name">
+                </label>
+                <label>Прізвище:
+                    <input type="text" placeholder=" your Last Name" name="last name">
+                </label>
+                <label>Ваш день народження:
+                    <input type="date" name="birthday" min="1900-01-01" max="2019-12-31">
+                </label>
+                <label>Електронна пошта:
+                    <input type="email" placeholder="oleg@ukr.net" name="email" id="yourEmail">
+                </label>
+                <label>Ваш телефон:
+                    <input type="tel" placeholder="+380xxxxxxxxx" name="phone">
+                </label>
+                <label>Кількість людей:
+                    <input type="text" placeholder="Кількість" name="number">
+                </label>
+                <label>Ваші запитання:
+                    <input type="text" placeholder="Запитання" name="question">
+                </label>
+                <label>Дата бронювання:
+                    <input type="date"  name="дата" min="2019-10-01" max="2022-12-31">
+                </label>
+            </div>
+            <div class="button">
+                <label>Відправити
+                    <input type="submit">
+                </label>
+                <label>Скинути
+                    <input type="reset" name="Скинути">
+                </label>
+            </div>
         </fieldset>
-            <label>Відправити
-                <input type="submit">
-            </label>
-            <br>
-            <label>Скинути
-                <input type="reset" name="Скинути">
-            </label>
             <br>
         </form>
     <footer>

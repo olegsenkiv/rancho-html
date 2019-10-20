@@ -10,7 +10,6 @@
 body {
     max-width: 980px;
     margin: auto;
-    background-color: rgb(255, 253, 249);
 }
 .arrow:focus {
   outline: none;
@@ -185,14 +184,28 @@ p {
 p::first-letter {
     font-size: 2rem;
 }
-#reserve {
+.data {
+    border: 3px solid #08520c;
+}
+.reserve {
     font-family: 'Freckle Face', cursive;
     font-size: 2rem;
     color: rgb(32, 73, 32);
+    border: 3px solid #08520c;
     text-indent: 40px;
-    padding: auto;
     margin: auto;
     text-align: center;
+}
+.your-data {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.button {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: repeat(2, 1fr);
 }
 footer {
   background-color: #a9aeb1;
