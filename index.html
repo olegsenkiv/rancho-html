@@ -5,60 +5,84 @@
         <title>Rancho HTML</title>
         <link rel="stylesheet" href="css/index.css">
     </head>
-    <body >
+    <body>
         <form>
             <select name="color" id="backgraund">
-            <option value="white">білий</option>
-            <option value="silver">срібний</option>
-            <option value="whitesmoke">білосніжний</option>
-            <option value="snow">сніжний</option>
-            <option value="grey">сірий</option>
-            <option value="beige">бежевий</option>
-            <option value="tan">засмаглий</option>
-            <option value="slategrey">шиферу</option>
-            <option value="yellowgreen">жовто-зелений</option>
-            <option value="green">зелений</option>
-            <option value="red">червоний</option>
-            <option value="blue">голубий</option>
+                <option value="aliceblue">aliceblue</option>
+                <option value="white">білий</option>
+                <option value="silver">срібний</option>
+                <option value="whitesmoke">білосніжний</option>
+                <option value="snow">сніжний</option>
+                <option value="grey">сірий</option>
+                <option value="beige">бежевий</option>
+                <option value="tan">засмаглий</option>
+                <option value="slategrey">шиферу</option>
+                <option value="yellowgreen">жовто-зелений</option>
+                <option value="green">зелений</option>
+                <option value="red">червоний</option>
+                <option value="blue">голубий</option>
             </select>
         </form>
+        <p class="coutdown-new-year">До Нового Року залишилось</p>
+        <div id="countdown" class="countdown">
+            <div class="countdown-number">
+                <span class="days countdown-time"></span>
+                <span class="countdown-text">Днів</span>
+            </div>
+            <div class="countdown-number">
+                <span class="hours countdown-time"></span>
+                <span class="countdown-text">Годин</span>
+            </div>
+            <div class="countdown-number">
+                <span class="minutes countdown-time"></span>
+                <span class="countdown-text">Хвилин</span>
+            </div>
+            <div class="countdown-number">
+                <span class="seconds countdown-time"></span>
+                <span class="countdown-text">Секунд</span>
+            </div>
+        </div>
+        <div>
+            <div id="bg_clock_shade" class="clock_shade"></div>
+            <div id="bg_clock" class="clock"></div>
+        </div>
         <div class="clock"></div>
         <header>
             <nav>
                 <ul class="menu">
-                <li>
-                    <a href="#home">Головна</a>
-                </li>
-                <li>
-                    <a href="#services">Послуги</a>
-                </li>
-                <li>
-                    <a href="price.html">Ціни</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Галерея</a>
-                </li>
-                <li>
-                    <a href="#contacts">Контакти</a>
-                </li>
-                <li>
-                    <a href="#reserve">Забронювати</a>
-                </li>
+                    <li>
+                        <a href="#home">Головна</a>
+                    </li>
+                    <li>
+                        <a href="#services">Послуги</a>
+                    </li>
+                    <li>
+                        <a href="price.html">Ціни</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Галерея</a>
+                    </li>
+                    <li>
+                        <a href="#contacts">Контакти</a>
+                    </li>
+                    <li>
+                        <a href="#reserve">Забронювати</a>
+                    </li>
                 </ul>
             </nav>
             <div id="home">
-            <h1>Ранчо</h1>
+                <h1>Ранчо</h1>
             </div>
         </header>
         <main>
             <div>
-            <h2 class="vacation">Відпочинок у Карпатах</h2>
+                <h2 class="vacation">Відпочинок у Карпатах</h2>
                 <div class="villa">
-                <img src="img/rancho.jpg" alt="Відпочинковий котедж">
+                    <img src="img/rancho.jpg" alt="Відпочинковий котедж">
                 </div>
             </div>
             <div>
-             <h2 class="welcome">Запрошуємо на відпочинок</h2>
+                <h2 class="welcome">Запрошуємо на відпочинок</h2>
                 <p>Відпочинок у курортній перлині Львівської області.
                 Відпочинковий комплекс розташований на схилах живописних гір, неподалік  курортного містечка Східниця.
                 Тільки тут ви можете відчути і оцінити унікальне поєднання
@@ -67,107 +91,123 @@
                 </p>
             </div>
             <div>
-            <h2 class="fish">Ловля форелі та карпа</h2>
-                <p class="text">Мало хто може сказати, що ловив форель в гірському карпатському озері, але Ви зможете!<br>
-                    У нас можна не лише цікаво порибалити, а й одночасно замовити приготування виловленої риби.
+                <h2 class="fish">Ловля форелі та карпа</h2>
+                <p class="text">
+                    Мало хто може сказати, що ловив форель в гірському карпатському озері, але Ви зможете!<br>У нас можна не лише цікаво порибалити, а й одночасно замовити приготування виловленої риби.
                     Будь то приготування на мангалі, методом гарячого копчення, смаження в олії чи різноманітні варіанти з фаршируванням.
                     В будь-якому випадку страва буде надзвичайно смачна та корисна, адже не даремно рибалки говорять, що найсмачніша риба – це риба виловлена власноруч!
+
                 </p>
             </div>
             <div class="fish_on_the_brazier">
-            <img src="img/fish.jpg" alt="Ловля форелі та карпа">
+                <img src="img/fish.jpg" alt="Ловля форелі та карпа">
             </div>
             <br>
             <div class="brazier">
-            <img src="img/brazier.jpg" alt="На мангалі">
+                <img src="img/brazier.jpg" alt="На мангалі">
             </div>
             <br>
             <div id="sauna">
-            <h2>Сауна</h2>
+                <h2>Сауна</h2>
                 <p>Чудове місце не тільки для відпочинку, але і для зміцнення імунітету та здоров"я.</p>
                 <img src="img/sauna.jpg" alt="Сауна та Басейн">
             </div>
             <div class="lake">
-            <h2 class="text-lake">Озеро та Альтанки</h2>
+                <h2 class="text-lake">Озеро та Альтанки</h2>
                 <div class="for_lake">
                     <img src="img/lake.jpg" alt="Озеро та Альтанки">
                 </div>
             </div>
             <br>
-            <h2 id="services">Послуги</h2>
-                <div class="a_lot_of_services">
+            <div id="services">
+                <u>Послуги</u>
+                <div class="services_list">
                     <ul>
                         <li>Проживання</li>
-                        <li>Риболовля</li>
-                        <li>Кухня</li>
                         <li>Сауна</li>
                         <li>Басейн</li>
+                        <li>Роболовля</li>
+                        <li>Приготування риби</li>
                     </ul>
                 </div>
+            </div>
         </main>
         <form method="POST" action="https://formspree.io/olegsenkiv1992@ukr.net">
-        <fieldset class="data">
-            <legend>Виберіть бажану дату відпочинку:</legend>
-            <h2 class="reserve">Забронювати</h2>
-            <div class="your-data">
-                <label>Ваше ім'я:
-                    <input type="text" placeholder="your name" name="name">
-                </label>
-                <label>Прізвище:
-                    <input type="text" placeholder=" your Last Name" name="last name">
-                </label>
-                <label>Ваш день народження:
-                    <input type="date" name="birthday" min="1900-01-01" max="2019-12-31">
-                </label>
-                <label>Електронна пошта:
-                    <input type="email" placeholder="oleg@ukr.net" name="email" id="yourEmail">
-                </label>
-                <label>Ваш телефон:
-                    <input type="tel" placeholder="+380xxxxxxxxx" name="phone">
-                </label>
-                <label>Кількість людей:
-                    <input type="text" placeholder="Кількість" name="number">
-                </label>
-                <label>Ваші запитання:
-                    <input type="text" placeholder="Запитання" name="question">
-                </label>
-                <label>Дата бронювання:
-                    <input type="date"  name="дата" min="2019-10-01" max="2022-12-31">
-                </label>
-            </div>
-            <div class="button">
-                <label>Відправити
-                    <input type="submit">
-                </label>
-                <label>Скинути
-                    <input type="reset" name="Скинути">
-                </label>
-            </div>
-        </fieldset>
+            <fieldset class="data">
+                <legend>Виберіть бажану дату відпочинку:</legend>
+                <h2 class="reserve">Забронювати</h2>
+                <div class="your-data">
+                    <label>
+                        Ваше ім'я:
+                        <input type="text" placeholder="your name" name="name">
+                    </label>
+                    <label>
+                        Прізвище:
+                        <input type="text" placeholder=" your Last Name" name="last name">
+                    </label>
+                    <label>
+                        Ваш день народження:
+                        <input type="date" name="birthday" min="1900-01-01" max="2019-12-31">
+                    </label>
+                    <label>
+                        Електронна пошта:
+                        <input type="email" placeholder="oleg@ukr.net" name="email" id="yourEmail">
+                    </label>
+                    <label>
+                        Ваш телефон:
+                        <input type="tel" placeholder="+380xxxxxxxxx" name="phone">
+                    </label>
+                    <label>
+                        Кількість людей:
+                        <input type="text" placeholder="Кількість" name="number">
+                    </label>
+                    <label>
+                        Ваші запитання:
+                        <input type="text" placeholder="Запитання" name="question">
+                    </label>
+                    <label>
+                        Дата бронювання:
+                        <input type="date" name="дата" min="2019-10-01" max="2022-12-31">
+                    </label>
+                </div>
+                <div class="button">
+                    <label>
+                        Відправити
+                        <input type="submit">
+                    </label>
+                    <label>
+                        Скинути
+                        <input type="reset" name="Скинути">
+                    </label>
+                </div>
+            </fieldset>
             <br>
         </form>
-    <footer>
-        <a href="#top"><img src="img/up-arrow.svg" width="25" alt="arrow up"></a>
-        <h2 id="contacts">Контакти</h2>
-        <ul>
-            <li>тел.098 45 06 758</li>
-            <li>
-                <a href="https://accounts.ukr.net/olegsenkiv1992@ukr.net/" target="_blank">olegsenkiv@ukr.net</a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/chelseaman_007/" target="_blank">Instagram</a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/profile.php?id=100037449129465" target="_blank">facebook</a>
-            </li>
-        </ul>
-        <p>Відстань від Львову 130 км</p>
-        <p class="find_us">Як нас найти</p>
-        <div class="way">
-            <img src="img/way.jpg" alt=" Як доїхати до Бистриці-Гірської">
-        </div>
-        <p>© Бистриця-Гірська 2019 | • Львівська область, Дрогобицький район.</p>
-    </footer>
+        <footer>
+            <a href="#top">
+                <img src="img/up-arrow.svg" width="25" alt="arrow up">
+            </a>
+            <h2 id="contacts">Контакти</h2>
+            <ul>
+                <li>тел.098 45 06 758</li>
+                <li>
+                    <a href="https://accounts.ukr.net/olegsenkiv1992@ukr.net/" target="_blank">olegsenkiv@ukr.net</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/chelseaman007/" target="_blank">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100037449129465" target="_blank">facebook</a>
+                </li>
+            </ul>
+            <p>Відстань від Львову 125 км</p>
+            <p class="find_us">Як нас найти</p>
+            <div class="way">
+                <img src="img/way.jpg" alt=" Як доїхати до Бистриці-Гірської">
+            </div>
+            <p>© Бистриця-Гірська 2019 | • Львівська область, Дрогобицький район.</p>
+        </footer>
         <script src="js/index.js"></script>
     </body>
 </html>
+

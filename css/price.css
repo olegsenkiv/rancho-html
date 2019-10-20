@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap');
-
 :root {
     --accent-color: #08520c;
     --main-color: black;
@@ -9,7 +8,7 @@
 body {
     max-width: 980px;
     margin: auto;
-    background-color: ghostwhite;
+    background-color: aliceblue;
 }
 .price {
     font-family: 'Freckle Face', cursive;
@@ -27,31 +26,35 @@ body {
     margin: auto;
     text-align: center;
 }
-.attention {
+.unnouncement {
     font-size: 1.5rem;
-    color: darkblue;
-}
-.cook_forel {
-    color: darkblue;
-    font-size: 1rem;
-}
-.cook_carp {
-    color:forestgreen;
-    font-size: 1rem;
-}
-.lives {
-    font-size: 2rem;
-    color: darkblue;
+    color: royalblue;
     padding: auto;
     margin: auto;
     text-align: center;
 }
-.for-one-people {
-    color:forestgreen;
-    font-size: 1rem;
+.attention {
+    font-size: 1.5rem;
+    color: red;
+    text-align: center;
 }
-.for-one-hour {
+.cook_forel {
     color: darkblue;
-    font-size: 1rem;
-    border-bottom: cornsilk;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.cook_сyprinus {
+    color:forestgreen;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.lives {
+    color:forestgreen;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.sauna {
+    color:forestgreen;
+    font-size: 1.5rem;
+    text-align: center;
 }

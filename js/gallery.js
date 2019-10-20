@@ -1,0 +1,1 @@
+document.getElementById('backgraund').onchange= e => document.body.style.backgroundColor = e.target.value;
